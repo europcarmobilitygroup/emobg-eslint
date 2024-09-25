@@ -1,0 +1,11 @@
+{
+  "name": "@emobg/eslint",
+  "version": "1.0.0",
+  "description": "EMobG ESLint config",
+  "keywords": [
+    "ts",
+    "es6",
+    "linter"
+  ],
+  "author": "Europcar Mobility Group Front-End <chapter.frontend@europcar.com>"
+}
