@@ -1,0 +1,8 @@
+node_modules/
+.idea
+.vscode
+*.log
+*.tgz
+npm-debug.*
+.DS_Store
+.yarn/install-state.gz
