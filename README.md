@@ -10,11 +10,11 @@ eslint.config.js
 
 ```
   const eslintProjectOverrides = {
-  //
+    //
   };
 
-  const eslintES6 = require('@emobg/eslint/configs/es6.config.js');
-  const eslintTS = require('@emobg/eslint/configs/ts.config.js');
+  const eslintES6 = require('@emobg/eslint/config/es6.js');
+  const eslintTS = require('@emobg/eslint/config/ts.js');
 
   module.exports = [{
     files: ["**/*.ts"],
