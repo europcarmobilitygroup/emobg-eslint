@@ -2,6 +2,15 @@
   "name": "@emobg/eslint",
   "version": "1.0.0",
   "description": "EMobG ESLint config",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/europcarmobilitygroup/emobg-eslint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/europcarmobilitygroup/emobg-eslint/issues"
+  },
+  "homepage": "https://github.com/europcarmobilitygroup/emobg-eslint",
   "keywords": [
     "ts",
     "es6",
