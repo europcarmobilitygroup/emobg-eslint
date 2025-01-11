@@ -1,5 +1,5 @@
-# Europcar Mobility Group
-ESLint configuration for ES6 & TypeScript
+# Europcar Mobility Group ECMAScript code quality setup
+ESLint configuration for ES6 & TypeScript standarizing code quality
 
 ## Description
 A reusable and customizable ESLint configuration package.
