@@ -1,4 +1,4 @@
-# emobg-eslint
+# Europcar Mobility Group
 ESLint configuration for ES6 & TypeScript
 
 ## Description
