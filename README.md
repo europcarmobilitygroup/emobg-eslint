@@ -31,28 +31,28 @@ module.exports = [{
 
 - JavaScript + TypeScript Configuration
 
-```
-  const eslintProjectOverrides = {
-    //
-  };
+```JS
+const eslintProjectOverrides = {
+  //
+};
 
-  const eslintES6 = require('@emobg/eslint/config/es6.js');
-  const eslintTS = require('@emobg/eslint/config/ts.js');
+const eslintES6 = require('@emobg/eslint/config/es6.js');
+const eslintTS = require('@emobg/eslint/config/ts.js');
 
-  module.exports = [{
-    files: ["**/*.ts"],
-    ignores: ["**/*.d.ts",],
-    ...eslintES6,
-    ...eslintTS,
-    plugins: { ...eslintTS.plugins },
-    rules: {
-      ...eslintES6.rules,
-      ...eslintTS.rules,
-      ...eslintProjectOverrides,
-    },
-    languageOptions: {
-      ...eslintES6.languageOptions,
-      ...eslintTS.languageOptions,
-    },
-  }];
+module.exports = [{
+  files: ["**/*.ts"],
+  ignores: ["**/*.d.ts",],
+  ...eslintES6,
+  ...eslintTS,
+  plugins: { ...eslintTS.plugins },
+  rules: {
+    ...eslintES6.rules,
+    ...eslintTS.rules,
+    ...eslintProjectOverrides,
+  },
+  languageOptions: {
+    ...eslintES6.languageOptions,
+    ...eslintTS.languageOptions,
+  },
+}];
 ```
