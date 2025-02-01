@@ -1,12 +1,35 @@
 # Europcar Mobility Group ECMAScript code quality setup
-ESLint `9.x.x` configuration for ES6 & TypeScript standardising code quality
+Library provides flexible linting (ESLint `9.x.x`) setups for JavaScript and TypeScript projects. 
+It is designed to support both JavaScript and TypeScript, allowing developers to choose the configuration that best fits their needs.
 
 ## Description
-A reusable and customizable ESLint configuration package.
 Includes separate configurations for ES6 and TypeScript, pre-configured with popular ESLint rules and best practices used by Europcar Mobility Group Front-end department.
 
 ## Usage
-eslint.config.js
+The library offers two main configurations for `eslint.config.js`
+- JavaScript only Configuration
+
+```JS
+const eslintProjectOverrides = {
+  //
+};
+
+const eslintES6 = require('@emobg/eslint/config/es6.js');
+
+module.exports = [{
+  files: ["**/*.js"],
+  ...eslintES6,
+  rules: {
+    ...eslintES6.rules,
+    ...eslintProjectOverrides,
+  },
+  languageOptions: {
+    ...eslintES6.languageOptions,
+  },
+}];
+```
+
+- JavaScript + TypeScript Configuration
 
 ```
   const eslintProjectOverrides = {
