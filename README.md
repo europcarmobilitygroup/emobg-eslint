@@ -11,7 +11,7 @@ const eslintProjectOverrides = {
   //
 };
 
-const eslintES6 = require('@emobg/eslint/config/es6.js');
+const { eslintES6 } = require('@emobg/eslint');
 
 module.exports = [{
   files: ["**/*.js"],
@@ -33,8 +33,7 @@ const eslintProjectOverrides = {
   //
 };
 
-const eslintES6 = require('@emobg/eslint/config/es6.js');
-const eslintTS = require('@emobg/eslint/config/ts.js');
+const { eslintES6, eslintTS } = require('@emobg/eslint');
 
 module.exports = [{
   files: ["**/*.ts"],
