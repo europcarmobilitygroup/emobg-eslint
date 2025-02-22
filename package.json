@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/europcarmobilitygroup/emobg-eslint.git"
+    "url": "git+https://github.com/europcarmobilitygroup/emobg-eslint.git"
   },
   "bugs": {
     "url": "https://github.com/europcarmobilitygroup/emobg-eslint/issues"
