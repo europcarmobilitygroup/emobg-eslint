@@ -1,5 +1,5 @@
 # Europcar Mobility Group ECMAScript code quality setup
-Library provides flexible linting (ESLint `9.x.x`) confuguration for front-end projects. 
+Library provides flexible linting (ESLint `9.x.x`) configuration for front-end projects. 
 It is designed to support both JavaScript and TypeScript, allowing developers to choose the configuration that best fits their needs.
 
 ## Usage
