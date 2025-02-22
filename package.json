@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "EMobG ESLint config",
   "main": "./index.js",
-  "private": true,
   "license": "MIT",
   "repository": {
     "type": "git",
