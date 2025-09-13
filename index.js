@@ -1,2 +1,3 @@
-export { default as eslintES6 } from './config/es6';
-export { default as typescript } from './config/typescript';
+exports.eslintES6 = require('./eslint/es6.js').default;
+exports.typescript = require('./eslint/typescript.js').default;
+exports.prettier = require('./prettier/config.js').default;
