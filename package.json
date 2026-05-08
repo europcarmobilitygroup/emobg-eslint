@@ -23,6 +23,6 @@
   ],
   "author": "Europcar Mobility Group Front-End <chapter.frontend@europcar.com>",
   "dependencies": {
-    "typescript-eslint": "8.43.0"
+    "typescript-eslint": "8.59.2"
   }
 }
